@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Festival de arte y cultura ancestral 2025</title>
+    <!--estilos de letra y colores-->
+    <style>
+         body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      background-color: #ffffff;
+      color: #222;
+    }
+    header, nav, main, section, article, aside, footer {
+      padding: 1em;
+      margin: 0 auto;
+      max-width: 960px;
+    }
+    nav ul {
+      display: flex;
+      gap: 15px;
+      list-style-type: none;
+      padding: 0;
+    }
+    nav a {
+      text-decoration: none;
+      color: #0066cc;
+      text-align: center;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+    footer {
+      background-color: #f2f2f2;
+      text-align: center;
+    }
+    </style>
+    
+</head>
+<body>
+    <!--Encabezado principal con titulo del evento-->
+    <header>
+      <!-- uso de h1 para el titulo mas importante-->
+    <h1 > Festival de arte y cultura ancestral 2025</h1>
+    <!--descripcion introductoria del evento-->
+    <p>Un encuentro cultural para celebrar la creatividad, la diversidad y la expresión artística.</p>
+    </header>
+    
+    <!--navegacion accesible con arial-label para lectores de pantalla-->
+    <nav aria-label="Menú Principal">
+        <ul>
+            <!--cada enlace lleva a una seccion interna identificada con ID-->
+            <li><a href="#evento"> evento</a></li>
+            <li><a href="#actividades"> actividades</a></li>
+            <li><a href="#registro"> registro</a></li>
+            <li><a href="#contacto"> contacto</a></li>
+          
+
+        </ul>
+    </nav>
+  
+
+    <!--contenido con descripcion del festival-->
+    <main>
+    <section id="evento">
+        <h2>Que es el festival</h2>
+        <ul>
+          <li>
+           <!--imagen con atributo alt para accesibilidad-->
+            <p>El Festival de Arte y cultura ancestral 2025 se llevará a cabo en Bogotá del 12 al 15 de junio. Durante cuatro días, artistas locales se reunirán para compartir música en vivo, exposiciones de arte, talleres y más.</p>
+            <img src="imagen/istockphoto-638650658-1024x1024.jpg" alt="grupo de personas bailando">
+
+        </li>
+        </ul>
+    </section>
+
+    <!--Seccion con lista de actividades por dia -->
+    <section id= "actividades">
+        <h2>Actividades del festival</h2>
+        
+         <ul>
+         <li><strong>Jueves:</strong>Concierto inagural y expocisión de arte emergente</li>
+         <li><strong>Viernes:</strong>Talleres de pintura, arte y música</li>
+         <li><strong>Sabado:</strong>Mercado artesanal y juegos autoctonos</li>
+         <li><strong>Domingo:</strong>Cierre con orquesta sinfónica y fiesta bailable</li>
+         </ul>
+    </section>
+
+     <!--formulario de inscripcion con etiquetas asociadas a los campos (for + id)-->
+     <section id="registro">
+        <h2>Inscríbete al evento</h2>
+        <form action="#">
+            <p><label for="nombre">Nombre: <input type="text" id="nombre"></label></p>
+            <p><label for="apellido">Apellido: <input type="text" id="apellido"></label></p>
+            <p><label for="correo">Correo electronico: <input type="email" id="correo"></label></p>
+            <p><label for="comentarios">Comentarios: <textarea  id="comentarios"></textarea></label></p>
+             
+           <button type="submit">Enviar</button>
+
+        </form>
+     </section>
+
+     <!--contenido complementario en <aside>-->
+     <aside>
+        <h3>Recomendaciones</h3>
+        <ul>
+            <li>Trae ropa comoda y bloqueador solar.</li>
+            <li>Hay zonas de comida y parquadero gratis.</li>
+            <li>El evento es pet-friendly.</li>
+        
+        </ul>
+     </aside>
+
+     <!--pie de pagina con contacto-->
+     <footer id="contacto">
+        <p>&copy; 2025 festival de arte y cultura ancestral.Todos los derechos reservados.</p>
+        <p>contacto:<a href="mailto:info@festivaldearteyculturancestral.com">info@festivaldearteyculturancestarl.com</a></p>
+      
+     </footer>
+       
+    </main>
+    
+</body>
+</html>
