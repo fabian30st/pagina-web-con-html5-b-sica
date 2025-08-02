@@ -14,8 +14,11 @@ Esta página web tiene como objetivo informar al público sobre el evento cultur
 - Se empleó el atributo `alt` en las imágenes para que los lectores de pantalla puedan describirlas.
 - La navegación principal (`<nav>`) incluye `aria-label` para mejorar la comprensión del menú en tecnologías asistivas.
 - El formulario de inscripción está correctamente etiquetado con `label for + id` para facilitar el uso con lectores de pantalla.
+- 
+## Visualización de la pagina 
+https://fabian30st.github.io/pagina-web-con-html5-b-sica/
 
---
+
 
 
 
